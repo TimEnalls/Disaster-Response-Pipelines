@@ -15,13 +15,21 @@ The Files in the Repository
 
 App Folder
 •	Run.py – This Python file contains the following steps: 
+
   •	Initializes a flask app
+  
   •	Tokenizes and normalizes text
+  
   •	Loads data from a database
+  
   •	Loads a model from “Train_classifer”
+  
   •	Returns a website that displays model results
+  
 •	Template Folder – contains the html files
+
   •	Go.html – contains html code for master.html
+  
   •	Master.htrml – allows users to enter messages that are then automatically classified
 
 Data Folder
