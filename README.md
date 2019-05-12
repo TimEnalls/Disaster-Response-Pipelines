@@ -1,19 +1,19 @@
 # Disaster-Response-Pipelines
 
 
-Summary of Project
+#Summary of Project#
 In this project, I analyzed real disaster data provided by Figure Eight to build a model for an API that classifies disaster messages. I created a machine learning pipeline to categorize disaster events so that a users can have their messages sent to an appropriate disaster relief agency.
 
 
-How to run the Python scripts and web app
+#How to run the Python scripts and web app#
 Run the following command in the app's directory to run your web app.
     `python run.py`
 
 Next, go to http://0.0.0.0:3001/
 
-The Files in the Repository
+#The Files in the Repository#
 
-App Folder
+##App Folder##
 •	Run.py – This Python file contains the following steps: 
 
   •	Initializes a flask app
