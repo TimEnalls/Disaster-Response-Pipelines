@@ -14,7 +14,7 @@ Next, go to http://0.0.0.0:3001/
 ## The Files in the Repository
 
 ### App Folder
-•	*Run.py* – This Python file contains the following steps: 
+•	**Run.py** – This Python file contains the following steps: 
 
   •	Initializes a flask app
   
@@ -28,22 +28,22 @@ Next, go to http://0.0.0.0:3001/
   
 •	Template Folder – contains the html files
 
-  •	*Go.html* – contains html code for master.html
+  •	**Go.html** – contains html code for master.html
   
-  •	*Master.html* – allows users to enter messages that are then automatically classified
+  •	**Master.html** – allows users to enter messages that are then automatically classified
 
 ### Data Folder
 
-•	*Process_data* – This Python file contains the following steps: 
+•	**Process_data** – This Python file contains the following steps: 
   •	Loads csv data containing category and messages data
   •	Cleans the data by splitting the category field and dropping duplicates
   •	Saves that data into a database .
-•	*DisasterResponse.db* – this database fie contains the clean data processed in “process_data.py”
-•	*Disaster_categories.csv* – this text file contains a column with concatenates category names
-•	*Disaster_messages.csv* – this text file contains messages typed by disaster victims
+•	**DisasterResponse.db** – this database fie contains the clean data processed in “process_data.py”
+•	**Disaster_categories.csv** – this text file contains a column with concatenates category names
+•	**Disaster_messages.csv** – this text file contains messages typed by disaster victims
 
 ### Models Folder
-•	*Train_classifer* – This Python file contains the following steps: 
+•	**Train_classifer** – This Python file contains the following steps: 
 •	Tokenizes disaster message text, normalizes that text to lower case, and removes stop words
 •	Builds an Adaboost model that uses grid search to optimize it’s hyperparameters
 •	Evaluates the model and predicts the categories of messages
