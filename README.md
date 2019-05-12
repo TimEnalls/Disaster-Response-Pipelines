@@ -35,6 +35,7 @@ Next, go to http://0.0.0.0:3001/
   
   •	**Master.html** – allows users to enter messages that are then automatically classified
 
+&nbsp;
 ### Data Folder
 
 •	**Process_data** – This Python file contains the following steps: 
@@ -51,6 +52,7 @@ Next, go to http://0.0.0.0:3001/
 
 •	**Disaster_messages.csv** – this text file contains messages typed by disaster victims
 
+&nbsp;
 ### Models Folder
 •	**Train_classifer** – This Python file contains the following steps: 
 
