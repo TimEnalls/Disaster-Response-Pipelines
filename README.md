@@ -16,15 +16,15 @@ Next, go to http://0.0.0.0:3001/
 ### App Folder
 •	**Run.py** – This Python file contains the following steps: 
 
-  •	Initializes a flask app
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Initializes a flask app
   
-  •	Tokenizes and normalizes text
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Tokenizes and normalizes text
   
-  •	Loads data from a database
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Loads data from a database
   
-  •	Loads a model from “Train_classifer”
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Loads a model from “Train_classifer”
   
-  •	Returns a website that displays model results
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Returns a website that displays model results
   
 •	Template Folder – contains the html files
 
