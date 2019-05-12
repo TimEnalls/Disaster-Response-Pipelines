@@ -16,17 +16,17 @@ Next, go to http://0.0.0.0:3001/
 ### App Folder
 •	**Run.py** – This Python file contains the following steps: 
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Initializes a flask app
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Initializes a flask app
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Tokenizes and normalizes text
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Tokenizes and normalizes text
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Loads data from a database
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Loads data from a database
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Loads a model from “Train_classifer”
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Loads a model from “Train_classifer”
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Returns a website that displays model results
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Returns a website that displays model results
   
-•	Template Folder – contains the html files
+•	**Template Folder** – contains the html files
 
   •	**Go.html** – contains html code for master.html
   
@@ -36,11 +36,11 @@ Next, go to http://0.0.0.0:3001/
 
 •	**Process_data** – This Python file contains the following steps: 
 
-  •	Loads csv data containing category and messages data
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Loads csv data containing category and messages data
   
-  •	Cleans the data by splitting the category field and dropping duplicates
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Cleans the data by splitting the category field and dropping duplicates
   
-  •	Saves that data into a database.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Saves that data into a database.
   
 •	**DisasterResponse.db** – this database fie contains the clean data processed in “process_data.py”
 
@@ -51,11 +51,11 @@ Next, go to http://0.0.0.0:3001/
 ### Models Folder
 •	**Train_classifer** – This Python file contains the following steps: 
 
-•	Tokenizes disaster message text, normalizes that text to lower case, and removes stop words
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Tokenizes disaster message text, normalizes that text to lower case, and removes stop words
 
-•	Builds an Adaboost model that uses grid search to optimize it’s hyperparameters
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Builds an Adaboost model that uses grid search to optimize it’s hyperparameters
 
-•	Evaluates the model and predicts the categories of messages
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Evaluates the model and predicts the categories of messages
 
-•	The trained model is saved as “pickle” into the run.py file
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	The trained model is saved as “pickle” into the run.py file
 
